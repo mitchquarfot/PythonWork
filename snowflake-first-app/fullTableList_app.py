@@ -1,5 +1,3 @@
-# Modified from Johannes Rieke's example code
-
 import streamlit as st
 from snowflake.snowpark import Session
 
