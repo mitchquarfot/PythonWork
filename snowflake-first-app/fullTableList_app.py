@@ -4,7 +4,7 @@ from snowflake.snowpark import Session
 # Set the page layout to wide
 st.set_page_config(layout="wide")
 
-st.title('❄️ How to connect Streamlit to a Snowflake database')
+st.title('❄️ Quick Access to Tables in Snowflake Warehouses')
 
 # Establish Snowflake session
 @st.cache_resource
