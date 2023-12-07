@@ -1,2 +1,3 @@
 .streamlit/
 hashed_pw.pkl
+config.yaml
