@@ -1,3 +1,5 @@
 .streamlit/
 hashed_pw.pkl
 config.yaml
+secrets.py
+__pycache__

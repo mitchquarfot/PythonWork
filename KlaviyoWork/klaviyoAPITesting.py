@@ -1,6 +1,9 @@
+from secrets import secrets
 from klaviyo_api import KlaviyoAPI
 
-klaviyo = KlaviyoAPI("pk_98a98159b54ae8eb74352839d0bf8df8e9", max_delay=60, max_retries=3, test_host=None)
+klaviyo_private_api_key = secrets.get('klaviyo_private_api_key')
+
+klaviyo = KlaviyoAPI(klaviyo_private_api_key, max_delay=60, max_retries=3, test_host=None)
 
 # metrics = klaviyo.Metrics.get_metrics()
 # print(metrics)
